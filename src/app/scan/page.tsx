@@ -3,7 +3,6 @@
 
 import React, { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import { fakeScript } from "../../lib/fakeReplies";
 
 declare global {
   interface Window {
@@ -15,9 +14,10 @@ declare global {
 export default function ScanPage() {
   const router = useRouter();
   const videoRef = useRef<HTMLVideoElement>(null);
-  const [transcript, setTranscript] = useState("");
-  const [aiReply, setAiReply] = useState("");
+  const recognitionRef = useRef<SpeechRecognition | null>(null);
+  const [transcript, setTranscript] = useState<string[]>([]);
   const [listening, setListening] = useState(false);
+  const [speaking, setSpeaking] = useState(false);
 
   useEffect(() => {
     navigator.mediaDevices
@@ -30,47 +30,57 @@ export default function ScanPage() {
       .catch((err) => console.error("Camera access error:", err));
   }, []);
 
-  const SpeechRecognition =
-    typeof window !== "undefined" &&
-    (window.SpeechRecognition || window.webkitSpeechRecognition);
-  const recognition = SpeechRecognition ? new SpeechRecognition() : null;
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const SpeechRecognition =
+      window.SpeechRecognition || window.webkitSpeechRecognition;
+    recognitionRef.current = SpeechRecognition
+      ? new SpeechRecognition()
+      : null;
+  }, []);
 
   const startListening = () => {
+    const recognition = recognitionRef.current;
     if (!recognition) return;
+    if (listening || speaking) return;
     setListening(true);
     recognition.continuous = false;
     recognition.interimResults = false;
     recognition.lang = "en-US";
     recognition.start();
 
-    recognition.onresult = (event: any) => {
+    recognition.onresult = async (event: SpeechRecognitionEvent) => {
       const userSpeech = event.results[0][0].transcript;
-      setTranscript(userSpeech);
+      setTranscript((t) => [...t, `You: ${userSpeech}`]);
 
-      setTimeout(() => {
-        const reply = getFakeReply(userSpeech);
-        setAiReply(reply);
-        speak(reply);
-      }, 1200);
+      const res = await fetch("/api/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message: userSpeech }),
+      });
+      const data = await res.json();
+      const reply = data.message;
+      setTranscript((t) => [...t, `AI: ${reply}`]);
+      speak(reply);
     };
 
     recognition.onerror = () => setListening(false);
-    recognition.onend = () => setListening(false);
+    recognition.onend = () => {
+      setListening(false);
+      if (!speaking) startListening();
+    };
   };
 
   const speak = (text: string) => {
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.rate = 1;
     utterance.pitch = 1;
+    setSpeaking(true);
+    utterance.onend = () => {
+      setSpeaking(false);
+      startListening();
+    };
     speechSynthesis.speak(utterance);
-  };
-
-  const getFakeReply = (input: string) => {
-    const msg = input.toLowerCase();
-    const step = fakeScript.find((s) => msg.includes(s.user));
-    return step
-      ? step.ai
-      : "Can you tell me a bit more about your skin type or concern?";
   };
 
   return (
@@ -94,48 +104,21 @@ export default function ScanPage() {
             className="w-full h-full object-cover"
           />
         </div>
-        <p className="text-sm text-center text-gray-700">
-          Fit your face in the oval
-        </p>
-      </div>
-
-      {/* Bottom fixed transcript button */}
-      <button
-        onClick={() => router.push("/transcript")}
-        className="absolute bottom-8 text-sm text-gray-500 hover:underline"
-      >
-        View transcript
-      </button>
-    </main>
-  );
-}
-
-/*
-// src/app/transcript/page.tsx --> /transcript
-"use client";
-
-import { useEffect, useState } from "react";
-import { fakeScript } from "../../lib/fakeReplies";
-
-export default function TranscriptPage() {
-  const [conversation, setConversation] = useState(fakeScript);
-
-  return (
-    <main className="min-h-screen bg-white p-6 flex flex-col items-center text-left gap-4">
-      <h1 className="text-xl font-semibold">Transcript</h1>
-      <div className="w-full max-w-xl space-y-4">
-        {conversation.map((step, index) => (
-          <div key={index} className="text-sm space-y-1">
-            <p>
-              <span className="font-semibold text-blue-600">You:</span> {step.user}
-            </p>
-            <p>
-              <span className="font-semibold text-green-600">AI:</span> {step.ai}
-            </p>
-          </div>
-        ))}
+        <button
+          onClick={startListening}
+          disabled={listening || speaking}
+          className={`px-4 py-2 rounded-md text-white text-sm ${
+            listening || speaking ? "bg-gray-400" : "bg-purple-500 hover:bg-purple-600"
+          }`}
+        >
+          {listening ? "Listening..." : speaking ? "Speaking..." : "Start"}
+        </button>
+        <div className="w-full max-w-md bg-white border rounded-md p-3 text-sm space-y-1 h-40 overflow-y-auto">
+          {transcript.map((line, idx) => (
+            <p key={idx}>{line}</p>
+          ))}
+        </div>
       </div>
     </main>
   );
 }
-  */
