@@ -1,0 +1,84 @@
+[
+  {
+    "name": "Niacinamide 10% + Zinc 1%",
+    "ingredients": [
+      "Niacinamide (10%)",
+      "Zinc PCA",
+      "Pentylene Glycol",
+      "Aqua (Water)"
+    ],
+    "concerns": [
+      "Oiliness",
+      "Enlarged pores",
+      "Uneven skin tone",
+      "Congestion"
+    ],
+    "how_to_use": "Apply in the morning and evening before heavier treatments—after cleansing and toning."
+  },
+  {
+    "name": "Niacinamide 5% Face & Body Emulsion",
+    "ingredients": [
+      "Niacinamide (5%)",
+      "Ethyl Macadamiate",
+      "Glycerin",
+      "Tocopherol",
+      "Propane‑diol"
+    ],
+    "concerns": ["Dark spots", "Uneven tone", "Dryness", "Texture"],
+    "how_to_use": "Apply to face and body morning and evening. If irritation occurs, rinse off and discontinue."
+  },
+  {
+    "name": "Balancing & Clarifying Serum",
+    "ingredients": [],
+    "concerns": ["Congestion", "Excess shine", "Pores", "Blemishes"],
+    "how_to_use": "Apply once daily to reduce signs of congestion and excess shine."
+  },
+  {
+    "name": "Glycolic Acid 7% Exfoliating Toner",
+    "ingredients": ["Glycolic Acid (7%)"],
+    "concerns": ["Texture", "Uneven tone", "Radiance"],
+    "how_to_use": "Use as a toner to even texture and tone, boosting radiance."
+  },
+  {
+    "name": "Hyaluronic Acid 2% + B5",
+    "ingredients": ["Hyaluronic Acid (2%)", "Vitamin B5"],
+    "concerns": ["Hydration", "Plumping", "Texture"],
+    "how_to_use": "Apply multiple times daily before heavier creams to hydrate and smooth skin."
+  },
+  {
+    "name": "Alpha Arbutin 2% + HA",
+    "ingredients": ["Alpha-Arbutin", "Hydrolyzed Sodium Hyaluronate"],
+    "concerns": ["Uneven skin tone", "Dark spots", "Radiance"],
+    "how_to_use": "Apply morning and evening on entire face, before heavier creams. Use sunscreen during the day."
+  },
+  {
+    "name": "Retinol 0.5% in Squalane",
+    "ingredients": ["Retinol (0.5%)", "Squalane"],
+    "concerns": [
+      "Early signs of aging",
+      "Dryness",
+      "Textural irregularities",
+      "Uneven skin tone"
+    ],
+    "how_to_use": "Apply once daily in the evening after water-based serums. Start with lower frequency and build tolerance."
+  },
+  {
+    "name": "AHA 30% + BHA 2% Peeling Solution",
+    "ingredients": [
+      "30% AHA",
+      "2% BHA",
+      "Tasmanian Pepperberry Derivative",
+      "Hyaluronic Acid",
+      "Pro-Vitamin B5",
+      "Black Carrot"
+    ],
+    "concerns": ["Texture", "Pore congestion", "Uneven tone", "Redness"],
+    "how_to_use": "Use once or twice weekly in the evening on clean, dry skin. Leave on for no more than 10 minutes, then rinse off."
+  },
+  {
+    "name": "Multi-Peptide + Copper Peptides 1% Serum",
+    "ingredients": ["Multi‑Peptide Complex", "Copper Peptides 1%"],
+    "concerns": ["Fine lines", "Wrinkles", "Elasticity", "Firmness"],
+    "how_to_use": "Apply in the morning and evening after cleansing and before moisturizers. Not to be used with direct acids or vitamin C."
+  }
+]
