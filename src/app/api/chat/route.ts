@@ -1,4 +1,6 @@
 import { NextRequest } from "next/server";
+import path from "path";
+import fs from "fs";
 
 export async function POST(req: NextRequest) {
   const { message } = await req.json();
@@ -9,38 +11,131 @@ export async function POST(req: NextRequest) {
     return new Response("Missing OpenAI API key", { status: 500 });
   }
 
+  // Paths to data files
+  const productDataPath = path.join(
+    process.cwd(),
+    "src",
+    "data",
+    "skincare_products_100.json"
+  );
+  const maskDataPath = path.join(
+    process.cwd(),
+    "src",
+    "data",
+    "skincare_masks.json"
+  );
+  const supplementDataPath = path.join(
+    process.cwd(),
+    "src",
+    "data",
+    "skincare_supplements.json"
+  );
+
+  let products = [],
+    masks = [],
+    supplements = [];
+
+  try {
+    const rawProducts = fs.readFileSync(productDataPath, "utf-8");
+    products = JSON.parse(rawProducts).slice(0, 15);
+
+    const rawMasks = fs.readFileSync(maskDataPath, "utf-8");
+    masks = JSON.parse(rawMasks);
+
+    const rawSupplements = fs.readFileSync(supplementDataPath, "utf-8");
+    supplements = JSON.parse(rawSupplements);
+  } catch (err) {
+    console.error("❌ Failed to load skincare data:", err);
+    return new Response("Failed to load skincare data", { status: 500 });
+  }
+
+  // Create summaries
+  const productSummaries = products
+    .map((p: any, i: number) => {
+      return `Product ${i + 1}: ${p.product_name} (${p.brand_name})\n![${
+        p.product_name
+      }](${p.image})\nIngredients: ${p.ingredients.join(
+        ", "
+      )}\nRecommended use: ${p.recommended_use}`;
+    })
+    .join("\n\n");
+
+  const maskSummaries = masks
+    .map(
+      (m: any, i: number) =>
+        `Mask ${i + 1}: ${m.name} (${
+          m.brand
+        })\nIngredients: ${m.ingredients.join(
+          ", "
+        )}\nSkin types: ${m.skin_types.join(", ")}\nHow to use: ${m.how_to_use}`
+    )
+    .join("\n\n");
+
+  const supplementSummaries = supplements
+    .map(
+      (s: any, i: number) =>
+        `Supplement ${i + 1}: ${s.name} (${
+          s.brand
+        })\nBenefits: ${s.benefits.join(", ")}\nHow to use: ${s.how_to_use}`
+    )
+    .join("\n\n");
+
+  // System prompt
+  const systemBase = fs.readFileSync(
+    path.join(process.cwd(), "systemPrompt.txt"),
+    "utf-8"
+  );
+
   const systemPrompt = `
-You are a highly personalized, warm, and intelligent skincare consultant called DERMAT AI.
+${systemBase}
 
-You are a skincare sales expert and a dermatology-certified advisor. You help users build skincare routines and choose the right products, masks, supplements, or lifestyle changes. Your tone is caring, intuitive, and global — like a trusted friend who understands skin, science, and tradition.
+You are an expert skincare assistant. You will recommend a short, highly personalized morning and night routine (1–2 products each), one suitable mask, one helpful supplement, and a brief diet/lifestyle tip.
+You are highly empathetic when they mention their concerns, just mention 1 line.
 
-You guide users not just with answers, but by asking the right questions about their lifestyle, skin goals, cultural preferences, and current routine.
+Always follow these guidelines:
 
-You have deep knowledge of:
-- Global skincare rituals (Korean, Ayurvedic, French pharmacy, etc.)
-- Ingredients and actives (like Niacinamide, Azelaic Acid, Ceramides, etc.)
-- Skin types and concerns (e.g., oily, dry, sensitive, hormonal acne, pigmentation)
-- How ingredients interact (e.g., avoid combining Vitamin C and AHAs)
-- Routines and layering methods (AM vs PM, cycle syncing, barrier repair, etc.)
-- Personalized product matches from a large database — only mention brand names if confident or asked
-
-Always keep the tone caring, supportive, and concise. You’re not here to sell; you’re here to empower.
-
-Rules:
-- If the user asks a general question (like "what skincare should I use"), ask gentle follow-ups about their skin type, concerns, and goals.
-- If they mention specific symptoms or goals, suggest 1–3 product types (e.g., gentle cleanser, niacinamide serum).
-- Mention ingredients and functions, not brand names unless specifically asked.
-- If they mention cultural preferences (e.g., Ayurveda, Korean skincare), adapt suggestions accordingly.
-- If they mention past failures with skincare, acknowledge and adapt.
-- Avoid overwhelming them — keep suggestions light and build trust.
-- Do not offer medical advice. Focus on education, routines, and product-based support.
+- Only recommend products, masks, and supplements from the provided lists.
+- If the user asks a general question (like "what skincare should I use"), ask gentle follow-up questions about their skin type, concerns, and goals.
+- If they mention specific symptoms or goals, suggest 1 product option per category with:
+  - Name
+  - Image (just the URL)
+  - Key ingredients
+- Avoid mentioning how to use 
+- Avoid scientific jargon unless specifically asked
+- When mentioning ingredients, briefly explain what they do in plain terms (1 line max) like "soothes irritation"
+- Always explain why chose the products for them (1–2 thoughtful lines).
+- Reframe the user's concern or goal in a compassionate and simple way.
+- Avoid overwhelming users. Build trust with light, human conversation.
+- Do not offer medical advice. Stick to product-based, lifestyle-based guidance.
 
 Output Format:
-- Reframe the user's problem or goal in 1–2 thoughtful, caring lines
-- Suggest 1–3 product options (name, brand, texture/type, how to use)
-- Add a short explanation (1–2 lines) on *why* it fits their concern, skin type, or lifestyle
+
+1. Reframe the user's concern or goal (1–2 thoughtful, caring lines)
+2. Suggest 1 product for each category:
+   - Morning routine (1–2 products)
+   - Evening routine (1–2 products)
+   - 1 Mask
+   - 1 Supplement
+   - 1 Diet or lifestyle tip
+3. For each, include:
+   - Product name
+   - Key ingredients
+
+Use the following product data:
+
+--- PRODUCTS ---
+${productSummaries}
+
+--- MASKS ---
+${maskSummaries}
+
+--- SUPPLEMENTS ---
+${supplementSummaries}
+
+In the end, mention a short reason why it fits their concern or lifestyle
 `;
 
+  // OpenAI API call
   const res = await fetch("https://api.openai.com/v1/chat/completions", {
     method: "POST",
     headers: {

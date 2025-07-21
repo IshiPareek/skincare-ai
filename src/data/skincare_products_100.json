@@ -1,0 +1,1102 @@
+[
+  {
+    "brand_name": "Dr. Jart+",
+    "product_name": "Cicapair Tiger Grass Re.Pair Serum",
+    "ingredients": [
+      "Centella Asiatica",
+      "Niacinamide"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/dr-jartplus-cicapair-tiger-grass-repair-serum.jpg"
+  },
+  {
+    "brand_name": "La Roche-Posay",
+    "product_name": "Anthelios Sunscreen SPF 60",
+    "ingredients": [
+      "Mexoryl SX",
+      "Antioxidants"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/la-roche-posay-anthelios-sunscreen-spf-60.jpg"
+  },
+  {
+    "brand_name": "Paula's Choice",
+    "product_name": "2% BHA Liquid Exfoliant",
+    "ingredients": [
+      "Salicylic Acid",
+      "Green Tea Extract"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/paula's-choice-2percent-bha-liquid-exfoliant.jpg"
+  },
+  {
+    "brand_name": "Etude House",
+    "product_name": "Moistfull Collagen Cream",
+    "ingredients": [
+      "Hydrolyzed Collagen",
+      "Baobab Tree Extract"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/etude-house-moistfull-collagen-cream.jpg"
+  },
+  {
+    "brand_name": "Bioderma",
+    "product_name": "Sensibio H2O Micellar Water",
+    "ingredients": [
+      "Micelles",
+      "Cucumber Extract"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/bioderma-sensibio-h2o-micellar-water.jpg"
+  },
+  {
+    "brand_name": "CeraVe",
+    "product_name": "Hydrating Cleanser",
+    "ingredients": [
+      "Ceramides",
+      "Hyaluronic Acid"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/cerave-hydrating-cleanser.jpg"
+  },
+  {
+    "brand_name": "Bioderma",
+    "product_name": "Sensibio H2O Micellar Water",
+    "ingredients": [
+      "Micelles",
+      "Cucumber Extract"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/bioderma-sensibio-h2o-micellar-water.jpg"
+  },
+  {
+    "brand_name": "Innisfree",
+    "product_name": "Jeju Orchid Eye Cream",
+    "ingredients": [
+      "Orchid Extract",
+      "Peptides"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/innisfree-jeju-orchid-eye-cream.jpg"
+  },
+  {
+    "brand_name": "Bioderma",
+    "product_name": "Sensibio H2O Micellar Water",
+    "ingredients": [
+      "Micelles",
+      "Cucumber Extract"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/bioderma-sensibio-h2o-micellar-water.jpg"
+  },
+  {
+    "brand_name": "La Roche-Posay",
+    "product_name": "Anthelios Sunscreen SPF 60",
+    "ingredients": [
+      "Mexoryl SX",
+      "Antioxidants"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/la-roche-posay-anthelios-sunscreen-spf-60.jpg"
+  },
+  {
+    "brand_name": "Etude House",
+    "product_name": "Moistfull Collagen Cream",
+    "ingredients": [
+      "Hydrolyzed Collagen",
+      "Baobab Tree Extract"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/etude-house-moistfull-collagen-cream.jpg"
+  },
+  {
+    "brand_name": "Paula's Choice",
+    "product_name": "2% BHA Liquid Exfoliant",
+    "ingredients": [
+      "Salicylic Acid",
+      "Green Tea Extract"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/paula's-choice-2percent-bha-liquid-exfoliant.jpg"
+  },
+  {
+    "brand_name": "Kiehl's",
+    "product_name": "Ultra Facial Cream",
+    "ingredients": [
+      "Squalane",
+      "Glacial Glycoprotein"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/kiehl's-ultra-facial-cream.jpg"
+  },
+  {
+    "brand_name": "Neutrogena",
+    "product_name": "Hydro Boost Water Gel",
+    "ingredients": [
+      "Hyaluronic Acid",
+      "Glycerin"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/neutrogena-hydro-boost-water-gel.jpg"
+  },
+  {
+    "brand_name": "La Roche-Posay",
+    "product_name": "Anthelios Sunscreen SPF 60",
+    "ingredients": [
+      "Mexoryl SX",
+      "Antioxidants"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/la-roche-posay-anthelios-sunscreen-spf-60.jpg"
+  },
+  {
+    "brand_name": "The Ordinary",
+    "product_name": "Niacinamide 10% + Zinc 1%",
+    "ingredients": [
+      "Niacinamide",
+      "Zinc PCA"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/the-ordinary-niacinamide-10percent-plus-zinc-1percent.jpg"
+  },
+  {
+    "brand_name": "Paula's Choice",
+    "product_name": "2% BHA Liquid Exfoliant",
+    "ingredients": [
+      "Salicylic Acid",
+      "Green Tea Extract"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/paula's-choice-2percent-bha-liquid-exfoliant.jpg"
+  },
+  {
+    "brand_name": "Innisfree",
+    "product_name": "Jeju Orchid Eye Cream",
+    "ingredients": [
+      "Orchid Extract",
+      "Peptides"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/innisfree-jeju-orchid-eye-cream.jpg"
+  },
+  {
+    "brand_name": "Kiehl's",
+    "product_name": "Ultra Facial Cream",
+    "ingredients": [
+      "Squalane",
+      "Glacial Glycoprotein"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/kiehl's-ultra-facial-cream.jpg"
+  },
+  {
+    "brand_name": "Bioderma",
+    "product_name": "Sensibio H2O Micellar Water",
+    "ingredients": [
+      "Micelles",
+      "Cucumber Extract"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/bioderma-sensibio-h2o-micellar-water.jpg"
+  },
+  {
+    "brand_name": "Etude House",
+    "product_name": "Moistfull Collagen Cream",
+    "ingredients": [
+      "Hydrolyzed Collagen",
+      "Baobab Tree Extract"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/etude-house-moistfull-collagen-cream.jpg"
+  },
+  {
+    "brand_name": "CeraVe",
+    "product_name": "Hydrating Cleanser",
+    "ingredients": [
+      "Ceramides",
+      "Hyaluronic Acid"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/cerave-hydrating-cleanser.jpg"
+  },
+  {
+    "brand_name": "Bioderma",
+    "product_name": "Sensibio H2O Micellar Water",
+    "ingredients": [
+      "Micelles",
+      "Cucumber Extract"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/bioderma-sensibio-h2o-micellar-water.jpg"
+  },
+  {
+    "brand_name": "The Ordinary",
+    "product_name": "Niacinamide 10% + Zinc 1%",
+    "ingredients": [
+      "Niacinamide",
+      "Zinc PCA"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/the-ordinary-niacinamide-10percent-plus-zinc-1percent.jpg"
+  },
+  {
+    "brand_name": "La Roche-Posay",
+    "product_name": "Anthelios Sunscreen SPF 60",
+    "ingredients": [
+      "Mexoryl SX",
+      "Antioxidants"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/la-roche-posay-anthelios-sunscreen-spf-60.jpg"
+  },
+  {
+    "brand_name": "CeraVe",
+    "product_name": "Hydrating Cleanser",
+    "ingredients": [
+      "Ceramides",
+      "Hyaluronic Acid"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/cerave-hydrating-cleanser.jpg"
+  },
+  {
+    "brand_name": "Dr. Jart+",
+    "product_name": "Cicapair Tiger Grass Re.Pair Serum",
+    "ingredients": [
+      "Centella Asiatica",
+      "Niacinamide"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/dr-jartplus-cicapair-tiger-grass-repair-serum.jpg"
+  },
+  {
+    "brand_name": "Etude House",
+    "product_name": "Moistfull Collagen Cream",
+    "ingredients": [
+      "Hydrolyzed Collagen",
+      "Baobab Tree Extract"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/etude-house-moistfull-collagen-cream.jpg"
+  },
+  {
+    "brand_name": "Kiehl's",
+    "product_name": "Ultra Facial Cream",
+    "ingredients": [
+      "Squalane",
+      "Glacial Glycoprotein"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/kiehl's-ultra-facial-cream.jpg"
+  },
+  {
+    "brand_name": "Dr. Jart+",
+    "product_name": "Cicapair Tiger Grass Re.Pair Serum",
+    "ingredients": [
+      "Centella Asiatica",
+      "Niacinamide"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/dr-jartplus-cicapair-tiger-grass-repair-serum.jpg"
+  },
+  {
+    "brand_name": "Kiehl's",
+    "product_name": "Ultra Facial Cream",
+    "ingredients": [
+      "Squalane",
+      "Glacial Glycoprotein"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/kiehl's-ultra-facial-cream.jpg"
+  },
+  {
+    "brand_name": "La Roche-Posay",
+    "product_name": "Anthelios Sunscreen SPF 60",
+    "ingredients": [
+      "Mexoryl SX",
+      "Antioxidants"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/la-roche-posay-anthelios-sunscreen-spf-60.jpg"
+  },
+  {
+    "brand_name": "Bioderma",
+    "product_name": "Sensibio H2O Micellar Water",
+    "ingredients": [
+      "Micelles",
+      "Cucumber Extract"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/bioderma-sensibio-h2o-micellar-water.jpg"
+  },
+  {
+    "brand_name": "La Roche-Posay",
+    "product_name": "Anthelios Sunscreen SPF 60",
+    "ingredients": [
+      "Mexoryl SX",
+      "Antioxidants"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/la-roche-posay-anthelios-sunscreen-spf-60.jpg"
+  },
+  {
+    "brand_name": "Etude House",
+    "product_name": "Moistfull Collagen Cream",
+    "ingredients": [
+      "Hydrolyzed Collagen",
+      "Baobab Tree Extract"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/etude-house-moistfull-collagen-cream.jpg"
+  },
+  {
+    "brand_name": "Neutrogena",
+    "product_name": "Hydro Boost Water Gel",
+    "ingredients": [
+      "Hyaluronic Acid",
+      "Glycerin"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/neutrogena-hydro-boost-water-gel.jpg"
+  },
+  {
+    "brand_name": "Dr. Jart+",
+    "product_name": "Cicapair Tiger Grass Re.Pair Serum",
+    "ingredients": [
+      "Centella Asiatica",
+      "Niacinamide"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/dr-jartplus-cicapair-tiger-grass-repair-serum.jpg"
+  },
+  {
+    "brand_name": "Neutrogena",
+    "product_name": "Hydro Boost Water Gel",
+    "ingredients": [
+      "Hyaluronic Acid",
+      "Glycerin"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/neutrogena-hydro-boost-water-gel.jpg"
+  },
+  {
+    "brand_name": "Bioderma",
+    "product_name": "Sensibio H2O Micellar Water",
+    "ingredients": [
+      "Micelles",
+      "Cucumber Extract"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/bioderma-sensibio-h2o-micellar-water.jpg"
+  },
+  {
+    "brand_name": "Dr. Jart+",
+    "product_name": "Cicapair Tiger Grass Re.Pair Serum",
+    "ingredients": [
+      "Centella Asiatica",
+      "Niacinamide"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/dr-jartplus-cicapair-tiger-grass-repair-serum.jpg"
+  },
+  {
+    "brand_name": "La Roche-Posay",
+    "product_name": "Anthelios Sunscreen SPF 60",
+    "ingredients": [
+      "Mexoryl SX",
+      "Antioxidants"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/la-roche-posay-anthelios-sunscreen-spf-60.jpg"
+  },
+  {
+    "brand_name": "Dr. Jart+",
+    "product_name": "Cicapair Tiger Grass Re.Pair Serum",
+    "ingredients": [
+      "Centella Asiatica",
+      "Niacinamide"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/dr-jartplus-cicapair-tiger-grass-repair-serum.jpg"
+  },
+  {
+    "brand_name": "Kiehl's",
+    "product_name": "Ultra Facial Cream",
+    "ingredients": [
+      "Squalane",
+      "Glacial Glycoprotein"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/kiehl's-ultra-facial-cream.jpg"
+  },
+  {
+    "brand_name": "Bioderma",
+    "product_name": "Sensibio H2O Micellar Water",
+    "ingredients": [
+      "Micelles",
+      "Cucumber Extract"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/bioderma-sensibio-h2o-micellar-water.jpg"
+  },
+  {
+    "brand_name": "La Roche-Posay",
+    "product_name": "Anthelios Sunscreen SPF 60",
+    "ingredients": [
+      "Mexoryl SX",
+      "Antioxidants"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/la-roche-posay-anthelios-sunscreen-spf-60.jpg"
+  },
+  {
+    "brand_name": "Neutrogena",
+    "product_name": "Hydro Boost Water Gel",
+    "ingredients": [
+      "Hyaluronic Acid",
+      "Glycerin"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/neutrogena-hydro-boost-water-gel.jpg"
+  },
+  {
+    "brand_name": "CeraVe",
+    "product_name": "Hydrating Cleanser",
+    "ingredients": [
+      "Ceramides",
+      "Hyaluronic Acid"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/cerave-hydrating-cleanser.jpg"
+  },
+  {
+    "brand_name": "Bioderma",
+    "product_name": "Sensibio H2O Micellar Water",
+    "ingredients": [
+      "Micelles",
+      "Cucumber Extract"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/bioderma-sensibio-h2o-micellar-water.jpg"
+  },
+  {
+    "brand_name": "Etude House",
+    "product_name": "Moistfull Collagen Cream",
+    "ingredients": [
+      "Hydrolyzed Collagen",
+      "Baobab Tree Extract"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/etude-house-moistfull-collagen-cream.jpg"
+  },
+  {
+    "brand_name": "Paula's Choice",
+    "product_name": "2% BHA Liquid Exfoliant",
+    "ingredients": [
+      "Salicylic Acid",
+      "Green Tea Extract"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/paula's-choice-2percent-bha-liquid-exfoliant.jpg"
+  },
+  {
+    "brand_name": "Kiehl's",
+    "product_name": "Ultra Facial Cream",
+    "ingredients": [
+      "Squalane",
+      "Glacial Glycoprotein"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/kiehl's-ultra-facial-cream.jpg"
+  },
+  {
+    "brand_name": "Bioderma",
+    "product_name": "Sensibio H2O Micellar Water",
+    "ingredients": [
+      "Micelles",
+      "Cucumber Extract"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/bioderma-sensibio-h2o-micellar-water.jpg"
+  },
+  {
+    "brand_name": "Dr. Jart+",
+    "product_name": "Cicapair Tiger Grass Re.Pair Serum",
+    "ingredients": [
+      "Centella Asiatica",
+      "Niacinamide"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/dr-jartplus-cicapair-tiger-grass-repair-serum.jpg"
+  },
+  {
+    "brand_name": "Innisfree",
+    "product_name": "Jeju Orchid Eye Cream",
+    "ingredients": [
+      "Orchid Extract",
+      "Peptides"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/innisfree-jeju-orchid-eye-cream.jpg"
+  },
+  {
+    "brand_name": "The Ordinary",
+    "product_name": "Niacinamide 10% + Zinc 1%",
+    "ingredients": [
+      "Niacinamide",
+      "Zinc PCA"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/the-ordinary-niacinamide-10percent-plus-zinc-1percent.jpg"
+  },
+  {
+    "brand_name": "Paula's Choice",
+    "product_name": "2% BHA Liquid Exfoliant",
+    "ingredients": [
+      "Salicylic Acid",
+      "Green Tea Extract"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/paula's-choice-2percent-bha-liquid-exfoliant.jpg"
+  },
+  {
+    "brand_name": "Dr. Jart+",
+    "product_name": "Cicapair Tiger Grass Re.Pair Serum",
+    "ingredients": [
+      "Centella Asiatica",
+      "Niacinamide"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/dr-jartplus-cicapair-tiger-grass-repair-serum.jpg"
+  },
+  {
+    "brand_name": "Etude House",
+    "product_name": "Moistfull Collagen Cream",
+    "ingredients": [
+      "Hydrolyzed Collagen",
+      "Baobab Tree Extract"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/etude-house-moistfull-collagen-cream.jpg"
+  },
+  {
+    "brand_name": "Kiehl's",
+    "product_name": "Ultra Facial Cream",
+    "ingredients": [
+      "Squalane",
+      "Glacial Glycoprotein"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/kiehl's-ultra-facial-cream.jpg"
+  },
+  {
+    "brand_name": "Paula's Choice",
+    "product_name": "2% BHA Liquid Exfoliant",
+    "ingredients": [
+      "Salicylic Acid",
+      "Green Tea Extract"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/paula's-choice-2percent-bha-liquid-exfoliant.jpg"
+  },
+  {
+    "brand_name": "The Ordinary",
+    "product_name": "Niacinamide 10% + Zinc 1%",
+    "ingredients": [
+      "Niacinamide",
+      "Zinc PCA"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/the-ordinary-niacinamide-10percent-plus-zinc-1percent.jpg"
+  },
+  {
+    "brand_name": "The Ordinary",
+    "product_name": "Niacinamide 10% + Zinc 1%",
+    "ingredients": [
+      "Niacinamide",
+      "Zinc PCA"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/the-ordinary-niacinamide-10percent-plus-zinc-1percent.jpg"
+  },
+  {
+    "brand_name": "Innisfree",
+    "product_name": "Jeju Orchid Eye Cream",
+    "ingredients": [
+      "Orchid Extract",
+      "Peptides"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/innisfree-jeju-orchid-eye-cream.jpg"
+  },
+  {
+    "brand_name": "Innisfree",
+    "product_name": "Jeju Orchid Eye Cream",
+    "ingredients": [
+      "Orchid Extract",
+      "Peptides"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/innisfree-jeju-orchid-eye-cream.jpg"
+  },
+  {
+    "brand_name": "Paula's Choice",
+    "product_name": "2% BHA Liquid Exfoliant",
+    "ingredients": [
+      "Salicylic Acid",
+      "Green Tea Extract"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/paula's-choice-2percent-bha-liquid-exfoliant.jpg"
+  },
+  {
+    "brand_name": "La Roche-Posay",
+    "product_name": "Anthelios Sunscreen SPF 60",
+    "ingredients": [
+      "Mexoryl SX",
+      "Antioxidants"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/la-roche-posay-anthelios-sunscreen-spf-60.jpg"
+  },
+  {
+    "brand_name": "La Roche-Posay",
+    "product_name": "Anthelios Sunscreen SPF 60",
+    "ingredients": [
+      "Mexoryl SX",
+      "Antioxidants"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/la-roche-posay-anthelios-sunscreen-spf-60.jpg"
+  },
+  {
+    "brand_name": "Bioderma",
+    "product_name": "Sensibio H2O Micellar Water",
+    "ingredients": [
+      "Micelles",
+      "Cucumber Extract"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/bioderma-sensibio-h2o-micellar-water.jpg"
+  },
+  {
+    "brand_name": "Etude House",
+    "product_name": "Moistfull Collagen Cream",
+    "ingredients": [
+      "Hydrolyzed Collagen",
+      "Baobab Tree Extract"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/etude-house-moistfull-collagen-cream.jpg"
+  },
+  {
+    "brand_name": "CeraVe",
+    "product_name": "Hydrating Cleanser",
+    "ingredients": [
+      "Ceramides",
+      "Hyaluronic Acid"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/cerave-hydrating-cleanser.jpg"
+  },
+  {
+    "brand_name": "Neutrogena",
+    "product_name": "Hydro Boost Water Gel",
+    "ingredients": [
+      "Hyaluronic Acid",
+      "Glycerin"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/neutrogena-hydro-boost-water-gel.jpg"
+  },
+  {
+    "brand_name": "Etude House",
+    "product_name": "Moistfull Collagen Cream",
+    "ingredients": [
+      "Hydrolyzed Collagen",
+      "Baobab Tree Extract"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/etude-house-moistfull-collagen-cream.jpg"
+  },
+  {
+    "brand_name": "Kiehl's",
+    "product_name": "Ultra Facial Cream",
+    "ingredients": [
+      "Squalane",
+      "Glacial Glycoprotein"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/kiehl's-ultra-facial-cream.jpg"
+  },
+  {
+    "brand_name": "Bioderma",
+    "product_name": "Sensibio H2O Micellar Water",
+    "ingredients": [
+      "Micelles",
+      "Cucumber Extract"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/bioderma-sensibio-h2o-micellar-water.jpg"
+  },
+  {
+    "brand_name": "La Roche-Posay",
+    "product_name": "Anthelios Sunscreen SPF 60",
+    "ingredients": [
+      "Mexoryl SX",
+      "Antioxidants"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/la-roche-posay-anthelios-sunscreen-spf-60.jpg"
+  },
+  {
+    "brand_name": "La Roche-Posay",
+    "product_name": "Anthelios Sunscreen SPF 60",
+    "ingredients": [
+      "Mexoryl SX",
+      "Antioxidants"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/la-roche-posay-anthelios-sunscreen-spf-60.jpg"
+  },
+  {
+    "brand_name": "Paula's Choice",
+    "product_name": "2% BHA Liquid Exfoliant",
+    "ingredients": [
+      "Salicylic Acid",
+      "Green Tea Extract"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/paula's-choice-2percent-bha-liquid-exfoliant.jpg"
+  },
+  {
+    "brand_name": "CeraVe",
+    "product_name": "Hydrating Cleanser",
+    "ingredients": [
+      "Ceramides",
+      "Hyaluronic Acid"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/cerave-hydrating-cleanser.jpg"
+  },
+  {
+    "brand_name": "Neutrogena",
+    "product_name": "Hydro Boost Water Gel",
+    "ingredients": [
+      "Hyaluronic Acid",
+      "Glycerin"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/neutrogena-hydro-boost-water-gel.jpg"
+  },
+  {
+    "brand_name": "Etude House",
+    "product_name": "Moistfull Collagen Cream",
+    "ingredients": [
+      "Hydrolyzed Collagen",
+      "Baobab Tree Extract"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/etude-house-moistfull-collagen-cream.jpg"
+  },
+  {
+    "brand_name": "CeraVe",
+    "product_name": "Hydrating Cleanser",
+    "ingredients": [
+      "Ceramides",
+      "Hyaluronic Acid"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/cerave-hydrating-cleanser.jpg"
+  },
+  {
+    "brand_name": "Bioderma",
+    "product_name": "Sensibio H2O Micellar Water",
+    "ingredients": [
+      "Micelles",
+      "Cucumber Extract"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/bioderma-sensibio-h2o-micellar-water.jpg"
+  },
+  {
+    "brand_name": "CeraVe",
+    "product_name": "Hydrating Cleanser",
+    "ingredients": [
+      "Ceramides",
+      "Hyaluronic Acid"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/cerave-hydrating-cleanser.jpg"
+  },
+  {
+    "brand_name": "Kiehl's",
+    "product_name": "Ultra Facial Cream",
+    "ingredients": [
+      "Squalane",
+      "Glacial Glycoprotein"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/kiehl's-ultra-facial-cream.jpg"
+  },
+  {
+    "brand_name": "Innisfree",
+    "product_name": "Jeju Orchid Eye Cream",
+    "ingredients": [
+      "Orchid Extract",
+      "Peptides"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/innisfree-jeju-orchid-eye-cream.jpg"
+  },
+  {
+    "brand_name": "Etude House",
+    "product_name": "Moistfull Collagen Cream",
+    "ingredients": [
+      "Hydrolyzed Collagen",
+      "Baobab Tree Extract"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/etude-house-moistfull-collagen-cream.jpg"
+  },
+  {
+    "brand_name": "La Roche-Posay",
+    "product_name": "Anthelios Sunscreen SPF 60",
+    "ingredients": [
+      "Mexoryl SX",
+      "Antioxidants"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/la-roche-posay-anthelios-sunscreen-spf-60.jpg"
+  },
+  {
+    "brand_name": "La Roche-Posay",
+    "product_name": "Anthelios Sunscreen SPF 60",
+    "ingredients": [
+      "Mexoryl SX",
+      "Antioxidants"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/la-roche-posay-anthelios-sunscreen-spf-60.jpg"
+  },
+  {
+    "brand_name": "CeraVe",
+    "product_name": "Hydrating Cleanser",
+    "ingredients": [
+      "Ceramides",
+      "Hyaluronic Acid"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/cerave-hydrating-cleanser.jpg"
+  },
+  {
+    "brand_name": "The Ordinary",
+    "product_name": "Niacinamide 10% + Zinc 1%",
+    "ingredients": [
+      "Niacinamide",
+      "Zinc PCA"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/the-ordinary-niacinamide-10percent-plus-zinc-1percent.jpg"
+  },
+  {
+    "brand_name": "Kiehl's",
+    "product_name": "Ultra Facial Cream",
+    "ingredients": [
+      "Squalane",
+      "Glacial Glycoprotein"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/kiehl's-ultra-facial-cream.jpg"
+  },
+  {
+    "brand_name": "Bioderma",
+    "product_name": "Sensibio H2O Micellar Water",
+    "ingredients": [
+      "Micelles",
+      "Cucumber Extract"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/bioderma-sensibio-h2o-micellar-water.jpg"
+  },
+  {
+    "brand_name": "Innisfree",
+    "product_name": "Jeju Orchid Eye Cream",
+    "ingredients": [
+      "Orchid Extract",
+      "Peptides"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/innisfree-jeju-orchid-eye-cream.jpg"
+  },
+  {
+    "brand_name": "La Roche-Posay",
+    "product_name": "Anthelios Sunscreen SPF 60",
+    "ingredients": [
+      "Mexoryl SX",
+      "Antioxidants"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/la-roche-posay-anthelios-sunscreen-spf-60.jpg"
+  },
+  {
+    "brand_name": "La Roche-Posay",
+    "product_name": "Anthelios Sunscreen SPF 60",
+    "ingredients": [
+      "Mexoryl SX",
+      "Antioxidants"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/la-roche-posay-anthelios-sunscreen-spf-60.jpg"
+  },
+  {
+    "brand_name": "Dr. Jart+",
+    "product_name": "Cicapair Tiger Grass Re.Pair Serum",
+    "ingredients": [
+      "Centella Asiatica",
+      "Niacinamide"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/dr-jartplus-cicapair-tiger-grass-repair-serum.jpg"
+  },
+  {
+    "brand_name": "Neutrogena",
+    "product_name": "Hydro Boost Water Gel",
+    "ingredients": [
+      "Hyaluronic Acid",
+      "Glycerin"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/neutrogena-hydro-boost-water-gel.jpg"
+  },
+  {
+    "brand_name": "The Ordinary",
+    "product_name": "Niacinamide 10% + Zinc 1%",
+    "ingredients": [
+      "Niacinamide",
+      "Zinc PCA"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/the-ordinary-niacinamide-10percent-plus-zinc-1percent.jpg"
+  },
+  {
+    "brand_name": "Dr. Jart+",
+    "product_name": "Cicapair Tiger Grass Re.Pair Serum",
+    "ingredients": [
+      "Centella Asiatica",
+      "Niacinamide"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "evening",
+    "image": "https://example.com/images/dr-jartplus-cicapair-tiger-grass-repair-serum.jpg"
+  },
+  {
+    "brand_name": "Etude House",
+    "product_name": "Moistfull Collagen Cream",
+    "ingredients": [
+      "Hydrolyzed Collagen",
+      "Baobab Tree Extract"
+    ],
+    "how_to_use": "Apply as directed on clean skin.",
+    "recommended_use": "morning",
+    "image": "https://example.com/images/etude-house-moistfull-collagen-cream.jpg"
+  }
+]

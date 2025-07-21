@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Zinc Gluconate",
+    "brand": "Now Foods",
+    "benefits": [
+      "Helps control oil production",
+      "Reduces inflammation"
+    ],
+    "how_to_use": "Take one tablet daily with food"
+  },
+  {
+    "name": "Omega-3 Fish Oil",
+    "brand": "Nordic Naturals",
+    "benefits": [
+      "Improves skin elasticity",
+      "Reduces redness"
+    ],
+    "how_to_use": "Take two softgels daily with meals"
+  },
+  {
+    "name": "Probiotic Complex",
+    "brand": "Garden of Life",
+    "benefits": [
+      "Improves gut health",
+      "May reduce acne"
+    ],
+    "how_to_use": "Take one capsule daily before breakfast"
+  },
+  {
+    "name": "Vitamin D3",
+    "brand": "Nature Made",
+    "benefits": [
+      "Supports immune function",
+      "Improves skin healing"
+    ],
+    "how_to_use": "Take one softgel daily with food"
+  },
+  {
+    "name": "Evening Primrose Oil",
+    "brand": "Solgar",
+    "benefits": [
+      "Balances hormones",
+      "Improves skin hydration"
+    ],
+    "how_to_use": "Take one capsule twice daily"
+  }
+]

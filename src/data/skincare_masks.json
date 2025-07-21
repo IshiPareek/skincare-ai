@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Super Volcanic Pore Clay Mask 2X",
+    "brand": "Innisfree",
+    "ingredients": [
+      "Jeju Volcanic Clusters",
+      "Lactic Acid"
+    ],
+    "skin_types": [
+      "Oily",
+      "Combination"
+    ],
+    "how_to_use": "Apply evenly to cleansed skin. Leave on for 10\u201315 minutes. Rinse off with lukewarm water."
+  },
+  {
+    "name": "Calendula Petal-Infused Calming Mask",
+    "brand": "Kiehl\u2019s",
+    "ingredients": [
+      "Calendula",
+      "Aloe Vera"
+    ],
+    "skin_types": [
+      "Sensitive",
+      "Dry"
+    ],
+    "how_to_use": "Apply a visible layer to clean skin. Leave on for 15 minutes, then rinse."
+  },
+  {
+    "name": "Avocado Nourishing Hydration Mask",
+    "brand": "Glow Recipe",
+    "ingredients": [
+      "Avocado",
+      "Kaolin",
+      "Manuka Honey"
+    ],
+    "skin_types": [
+      "Dry",
+      "Normal"
+    ],
+    "how_to_use": "Apply generously to skin, leave on for 15 minutes, and rinse with water."
+  },
+  {
+    "name": "Luminizing Black Charcoal Mask",
+    "brand": "Boscia",
+    "ingredients": [
+      "Activated Charcoal",
+      "Vitamin C"
+    ],
+    "skin_types": [
+      "Oily",
+      "Combination"
+    ],
+    "how_to_use": "Apply a thick, opaque layer. Let dry and peel off from edges."
+  },
+  {
+    "name": "Get Your Glow On Skin-Brightening Peel Mask",
+    "brand": "Formula 10.0.6",
+    "ingredients": [
+      "Papaya",
+      "Citrus"
+    ],
+    "skin_types": [
+      "Dull",
+      "All skin types"
+    ],
+    "how_to_use": "Apply to freshly cleansed skin. Wait 10\u201315 minutes, peel off gently."
+  }
+]
